@@ -1,0 +1,106 @@
+body
+{
+    width: auto;
+}
+#wrapper
+{
+    
+}
+#board
+{
+    height: 600px;
+    width: 800px;
+    margin-left: 250px;
+    border: 2px solid;
+    border-radius: 6px;
+    background-color: darkgrey;
+    position:relative;
+    opacity: 0.85;
+}
+#control
+{
+    height: 75px;
+    width: 800px;
+    position: relative;
+    border: 2px;
+    margin-left:250px;
+    border: 2px solid;
+    border-radius: 6px;
+    background-color: darkgrey;
+    opacity: 0.85;
+}
+.disc
+{
+    height: 15px;
+    border: 2px solid;
+    background-color: brown;
+    padding-bottom: 4px;
+    position: absolute;
+    z-index: 1;
+}
+#board .post
+{
+    height: 200px;
+    width: 25px;
+    background-color: bisque;
+    box-shadow: 5px 3px 20px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    bottom: 0;
+    position: absolute;
+}
+#post1
+{
+    left:200px;
+}
+#post2
+{
+    left:400px;
+}
+#post3
+{
+    left:600px;
+}
+
+#disc0
+{
+    width: 76px;
+    left: 170px;
+    bottom: 0px;
+}
+#disc1
+{
+    width: 66px;
+    left: 175px;
+    bottom: 25px;
+}
+#disc2
+{
+    width: 56px;
+    left: 180px;
+    bottom:50px;
+}
+#moves
+{
+    height: 600px;
+    width: 200px;
+    margin-right: 10px;
+    border: 2px solid;
+    border-radius: 6px;
+    background-color: darkgrey;
+    position: absolute;
+        
+}
+#moves > ol
+{
+    font-size: 0.9em;
+}
+#slider-range-max
+{
+    vertical-align: middle;
+    left: 50px;
+    bottom: 10px;
+    width: 700px;
+    height: 25px;
+    
+}
