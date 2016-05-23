@@ -1,0 +1,149 @@
+/*
+body {
+    width: auto;
+    height: 50%;
+}
+*/
+.container
+{
+    position: relative;
+    width: 100%;
+    height: 60%;
+    background-color: yellow;
+    border: 2px solid;
+    border-radius: 6px;
+}
+
+.board{
+    width: 400px;
+    height: 400px;
+    border: 2px solid;
+    border-radius: 6px;
+    background-color: darkgrey;
+    
+    opacity: 0.85;
+    
+}
+
+#control {
+    height: 150px;
+    width: 800px;
+    position: sticky;
+    border: 2px;
+    margin-left: 250px;
+    border: 2px solid;
+    border-radius: 6px;
+    background-color: darkgrey;
+    opacity: 0.85;
+    clear: both;
+}
+.post {
+    height: 75%;
+    width: 25px;
+    bottom:0px;
+    background-color: bisque;
+    box-shadow: 5px 3px 20px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    position: absolute;
+    
+    
+    
+    
+}
+#post1 {
+    left: 25%;
+}
+#post2 {
+    left: 50%;
+}
+#post3 {
+    left: 75%;
+}
+#schijven {
+    width: 150px;
+    height: 75%;
+    left: 18%;
+    bottom: 0;
+    position: absolute;
+    opacity: 0.75;
+    display: flex;
+    flex-direction: column-reverse;
+}
+#schijven2 {
+    width: 150px;
+    height: 75%;
+    left: 43%;
+    bottom: 0;
+    position: absolute;
+    opacity: 0.75;
+    display: flex;
+    flex-direction: column-reverse;
+}
+#schijven3 {
+    width: 150px;
+    height: 75%;
+    left: 68%;
+    bottom: 0;
+    position: absolute;
+    opacity: 0.75;
+}
+.s1 {
+    height: 20px;
+    
+    margin-bottom: 2px;
+    background-color: black;
+
+}
+.s2 {
+    height: 20px;
+    width: 125px;
+    margin-left:12.50px;
+    margin-bottom: 2px;
+    background-color: black;
+    
+}
+.s3 {
+    height: 20px;
+    width: 100px;
+    margin-left:25px;
+    margin-bottom: 2px;
+    background-color: black;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.s4 {
+    height: 20px;
+    
+    width: 75px;
+    margin-left: 37.5px;
+    margin-bottom: 2px;
+    background-color: black;
+}
+.s5 {
+    height: 20px;
+    margin-left:50px;
+    margin-bottom: 2px;
+    width: 50px;
+    background-color: black;
+}
+
+#s {
+    height: 20px;
+    margin-bottom: 2px;
+    background-color: black;
+    z-index: 100;
+    margin: 2px auto;
+}
+#slider-range-max {
+    vertical-align: middle;
+    left: 50px;
+    bottom: 10px;
+    width: 700px;
+    height: 25px;
+}
+
+.s#.over {
+    border: 2px dashed #000;
+}
+
